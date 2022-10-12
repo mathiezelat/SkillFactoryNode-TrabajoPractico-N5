@@ -151,6 +151,40 @@
         ]
       },
       "messageId": "<ec5a3d10-c471-a8f4-4d8a-f79f978b4ee3@gmail.com>"
+    },
+    {
+      "accepted": [
+        "test.to@gmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 695,
+      "messageTime": 710,
+      "messageSize": 565,
+      "response": "250 2.0.0 OK  1665614524 v21-20020a9d5a15000000b0063696cbb6bdsm7667429oth.62 - gsmtp",
+      "envelope": {
+        "from": "test.from@gmail.com",
+        "to": [
+          "test.to@gmail.com"
+        ]
+      },
+      "messageId": "<e7d3fd9b-2445-fed1-a9a8-3d54af03a349@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 554,
+      "messageTime": 528,
+      "messageSize": 568,
+      "response": "250 2.0.0 OK  1665614687 h7-20020a056830164700b00661a05691fasm3682445otr.79 - gsmtp",
+      "envelope": {
+        "from": "test.from@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<a34c21ca-7092-9e3d-0046-30d3e5d4756c@gmail.com>"
     }
   ]
 }
