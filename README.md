@@ -45,6 +45,8 @@ npm test
 - morgan
 - nodemailer
 - socket.io
+- swagger-jsdoc
+- swagger-ui-express
 
 ### Development 
 
@@ -53,6 +55,11 @@ npm test
 - nodemon
 - supertest
 
+# Docs
+
+## `/api/docs`
+
+## `/api/docs.json`
 # REST Api
 
 ## Users

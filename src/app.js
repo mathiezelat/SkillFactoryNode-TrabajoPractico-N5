@@ -5,6 +5,7 @@ import cors from 'cors'
 import morgan from 'morgan'
 import path from 'path'
 import * as url from 'url'
+import { swaggerDocs } from './swagger.js'
 import sockets from './sockets.js'
 
 import authRoute from './routes/auth.js'
@@ -26,6 +27,8 @@ app.use(express.urlencoded({ extended: false }))
 app.use('/api/auth', authRoute)
 app.use('/api/users', usersRoute)
 app.use('/api/mail', mailRoute)
+
+swaggerDocs(app)
 
 app.use('*', (req, res) => {
 	res.redirect('/')

@@ -1,5 +1,20 @@
 {
-  "users": [],
+  "users": [
+    {
+      "name": "User Test",
+      "email": "test@mail.com",
+      "password": "$2b$10$He1aH9Jj2l96uiQ.5N.9T.xpEnAd78cR.1wLeya9F348on3vL27cu",
+      "google": false,
+      "id": "b052a28f-c96e-463b-bf38-a4e076452fe7"
+    },
+    {
+      "name": "Iron Man",
+      "email": "iron.man@mail.com",
+      "password": "$2b$10$ezKxYAQndrJmwhJgyraLkuCmt7h20fqNET/Fbc/vThS2U1JRhz8vO",
+      "google": false,
+      "id": "43c0cfc9-b72e-4c5a-959d-d7f4f266e201"
+    }
+  ],
   "mails": [
     {
       "accepted": [

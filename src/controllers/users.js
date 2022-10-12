@@ -24,7 +24,7 @@ export const getOneUser = async (req, res) => {
 	const isUserExists = await userExistsById(userId)
 
 	if (!isUserExists) {
-		return res.status(400).send('User does not exist')
+		return res.status(404).send('User does not exist')
 	}
 
 	const user = await users.getOneUser(userId)
@@ -70,7 +70,7 @@ export const updateOneUser = async (req, res) => {
 	const isUserExists = await userExistsById(userId)
 
 	if (!isUserExists) {
-		return res.status(400).send('User does not exist')
+		return res.status(404).send('User does not exist')
 	}
 
 	const changeUser = {}
@@ -110,7 +110,7 @@ export const deleteOneUser = async (req, res) => {
 	const isUserExists = await userExistsById(userId)
 
 	if (!isUserExists) {
-		return res.status(400).send('User does not exist')
+		return res.status(404).send('User does not exist')
 	}
 
 	const deletedUser = await users.deleteOneUser(userId)
