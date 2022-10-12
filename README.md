@@ -57,9 +57,10 @@ npm test
 
 # Docs
 
-## `/api/docs`
+## Swagger
+### `/api/docs`
 
-## `/api/docs.json`
+### `/api/docs.json`
 # REST Api
 
 ## Users
