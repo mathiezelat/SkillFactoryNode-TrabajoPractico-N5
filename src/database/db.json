@@ -1,0 +1,141 @@
+{
+  "users": [],
+  "mails": [
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 522,
+      "messageTime": 567,
+      "messageSize": 587,
+      "response": "250 2.0.0 OK  1664413556 w24-20020a056870339800b0011f00b027bdsm3269058oae.45 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<7feeaf24-5263-152a-931b-dba600f6c8b9@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 1208,
+      "messageTime": 972,
+      "messageSize": 587,
+      "response": "250 2.0.0 OK  1664828939 n14-20020ab0748e000000b003b7e5fbfb6esm7157678uap.11 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<6abb8dee-3dd1-6d1a-e08e-a6c329f72944@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 533,
+      "messageTime": 760,
+      "messageSize": 587,
+      "response": "250 2.0.0 OK  1664829363 n14-20020ab0748e000000b003b7e5fbfb6esm7169902uap.11 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<a89a9834-e0c3-1644-ec31-2efc08b6fffa@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 605,
+      "messageTime": 672,
+      "messageSize": 587,
+      "response": "250 2.0.0 OK  1664829412 o80-20020a1f2853000000b003a3145581d5sm7325034vko.49 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<482e8a4d-65c1-064b-c145-487b0840e623@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 564,
+      "messageTime": 582,
+      "messageSize": 580,
+      "response": "250 2.0.0 OK  1664829462 r5-20020ab06605000000b0038275916987sm7286275uam.14 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<ddf1b8cc-b6cb-b355-fffc-609576d0f196@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 735,
+      "messageTime": 621,
+      "messageSize": 580,
+      "response": "250 2.0.0 OK  1664830520 n123-20020a1f5981000000b003a1d463770dsm8287917vkb.45 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<9f8e71d8-d49a-68d7-67c1-6a1a7a4fa3a4@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 560,
+      "messageTime": 850,
+      "messageSize": 580,
+      "response": "250 2.0.0 OK  1664830875 h13-20020ab0134d000000b003d5484f9ed1sm7479780uae.29 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<ffd044ab-5b98-005c-727b-1954c550116a@gmail.com>"
+    },
+    {
+      "accepted": [
+        "mathieze@hotmail.com"
+      ],
+      "rejected": [],
+      "envelopeTime": 1144,
+      "messageTime": 661,
+      "messageSize": 580,
+      "response": "250 2.0.0 OK  1664830910 t123-20020a1f2d81000000b00377b00cdf6esm7313155vkt.41 - gsmtp",
+      "envelope": {
+        "from": "mathiezelat@gmail.com",
+        "to": [
+          "mathieze@hotmail.com"
+        ]
+      },
+      "messageId": "<ec5a3d10-c471-a8f4-4d8a-f79f978b4ee3@gmail.com>"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Sala: JavaScript
+	Nombre de usuario: Mathias Ezequiel Latronico
+		Uno de los lenguajes de programación más usados
+	- 30/9/2022 18:25:10
+Sala: JavaScript
+	Nombre de usuario: Mathias Ezequiel Latronico
+		Ese es JavaScript
+	- 30/9/2022 18:29:29
+Sala: JavaScript
+	Nombre de usuario: Mathias Ezequiel Latronico
+		Buen dia a JavaScript
+	- 30/9/2022 18:42:23
+Sala: JavaScript
+	Nombre de usuario: Mathias Ezequiel Latronico
+		¡Bienvenido a JavaScript!
+	- 30/9/2022 18:43:59
+Sala: JavaScript
+	Nombre de usuario: Mathias Ezequiel Latronico
+		JavaScript es un lenguaje de programación :)
+	- 30/9/2022 18:46:04

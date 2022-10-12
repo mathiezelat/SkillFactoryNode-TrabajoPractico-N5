@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://accounts.google.com/gsi/client"
+			async
+			defer
+		></script>
+		<script src="/js/index.js" defer></script>
+		<title>Skill Factory Node - Trabajo Práctico 5</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+		/>
+	</head>
+	<body class="has-background-light" style="height: 100vh">
+		<div id="modal-js-login" class="modal">
+			<div class="modal-background"></div>
+
+			<div class="modal-content">
+				<div class="box">
+					<p class="title">Iniciar sesión</p>
+					<form id="login-form">
+						<div class="field">
+							<label for="login-email" class="label">
+								Email
+							</label>
+							<div class="controlt">
+								<input
+									class="input"
+									type="email"
+									id="login-email"
+									name="email"
+									placeholder="Enter your email..."
+									required
+								/>
+							</div>
+						</div>
+						<div class="field">
+							<label for="login-password" class="label">
+								Password
+							</label>
+							<div class="controlt">
+								<input
+									class="input"
+									type="password"
+									id="login-password"
+									name="password"
+									placeholder="Enter your password..."
+									required
+								/>
+							</div>
+						</div>
+
+						<div class="field is-grouped">
+							<div class="control">
+								<button class="button is-link">Enviar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<button
+				id="modal-close-login"
+				class="modal-close is-large"
+				aria-label="close"
+			></button>
+		</div>
+
+		<div id="modal-js-register" class="modal">
+			<div class="modal-background"></div>
+
+			<div class="modal-content">
+				<div class="box">
+					<p class="title">Crear una cuenta</p>
+					<form id="register-form">
+						<div class="field">
+							<label for="register-name" class="label">
+								Name
+							</label>
+							<div class="control">
+								<input
+									class="input"
+									type="text"
+									id="register-name"
+									name="name"
+									placeholder="Enter your full name..."
+									required
+								/>
+							</div>
+						</div>
+						<div class="field">
+							<label for="register-email" class="label">
+								Email
+							</label>
+							<div class="controlt">
+								<input
+									class="input"
+									type="email"
+									id="register-email"
+									name="email"
+									placeholder="Enter your email..."
+									required
+								/>
+							</div>
+						</div>
+						<div class="field">
+							<label for="register-password" class="label">
+								Password
+							</label>
+							<div class="controlt">
+								<input
+									class="input"
+									type="password"
+									id="register-password"
+									name="password"
+									placeholder="Enter your password..."
+									required
+								/>
+							</div>
+						</div>
+
+						<div class="field is-grouped">
+							<div class="control">
+								<button class="button is-link">Enviar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<button
+				id="modal-close-register"
+				class="modal-close is-large"
+				aria-label="close"
+			></button>
+		</div>
+
+		<div class="container py-6 px-5">
+			<div
+				class="content is-flex is-flex-direction-column is-justify-content-center is-align-items-center"
+			>
+				<h1 class="title">Skill Factory Node</h1>
+				<h2 class="subtitle">Trabajo Práctico 5</h2>
+
+				<div class="buttons">
+					<button
+						class="js-modal-trigger button is-primary"
+						data-target="modal-js-login"
+					>
+						Iniciar sesión
+					</button>
+					<button
+						class="js-modal-trigger button is-primary is-light"
+						data-target="modal-js-register"
+					>
+						Registrarse
+					</button>
+				</div>
+
+				<div class="is-block">
+					<div
+						id="g_id_onload"
+						data-client_id="939801379103-p7rksl05nvhjcsoo7sagltu05n0pmgp9.apps.googleusercontent.com"
+						data-callback="handleCredentialResponse"
+						data-auto_prompt="true"
+					></div>
+					<div
+						class="g_id_signin"
+						data-type="standard"
+						data-size="large"
+						data-theme="outline"
+						data-text="sign_in_with"
+						data-shape="rectangular"
+						data-logo_alignment="left"
+					></div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer has-background-light">
+			<div class="content has-text-centered">
+				<p>
+					by
+					<a href="https://github.com/mathiezelat"
+						>Mathías Ezequiel Latrónico</a
+					>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

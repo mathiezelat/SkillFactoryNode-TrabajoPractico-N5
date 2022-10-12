@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="/js/mail.js" defer></script>
+		<title>Skill Factory Node - Trabajo Práctico 5</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+		/>
+	</head>
+	<body class="has-background-light" style="min-height: 100vh">
+		<div class="contenedor py-6 px-5">
+			<div
+				class="content is-flex is-flex-direction-column is-justify-content-center is-align-items-center"
+			>
+				<h1 class="title">Skill Factory Node</h1>
+				<h2 class="subtitle">Trabajo Práctico 5</h2>
+				<div class="buttons">
+					<a href="/home.html" class="button is-primary"
+						>Volver a home</a
+					>
+				</div>
+				<h3>Enviar correo electrónico</h3>
+				<form id="mail-form" style="width: 325px">
+					<div class="field">
+						<label for="mail-from" class="label"> Desde </label>
+						<div class="control">
+							<input
+								class="input"
+								type="email"
+								id="mail-from"
+								name="from"
+								placeholder="Enter your from email..."
+								required
+							/>
+						</div>
+					</div>
+					<div class="field">
+						<label for="mail-to" class="label"> Para </label>
+						<div class="control">
+							<input
+								class="input"
+								type="email"
+								id="mail-to"
+								name="to"
+								placeholder="Enter your to email..."
+								required
+							/>
+						</div>
+					</div>
+					<div class="field">
+						<label for="mail-subject" class="label"> Asunto </label>
+						<div class="control">
+							<input
+								class="input"
+								type="text"
+								id="mail-subject"
+								name="subject"
+								placeholder="Enter your subject..."
+								required
+							/>
+						</div>
+					</div>
+					<div class="field">
+						<label for="mail-text" class="label"> Texto </label>
+						<div class="control">
+							<input
+								class="input"
+								type="text"
+								id="mail-text"
+								name="text"
+								placeholder="Enter your text..."
+								required
+							/>
+						</div>
+					</div>
+					<div class="field">
+						<label for="mail-html" class="label"> Texto </label>
+						<div class="control">
+							<textarea
+								class="textarea has-fixed-size is-family-code"
+								placeholder="Enter your html..."
+								id="mail-html"
+								name="html"
+								required
+							></textarea>
+						</div>
+					</div>
+
+					<div class="field is-grouped">
+						<div class="control">
+							<button class="button is-link">Enviar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer class="footer has-background-light">
+			<div class="content has-text-centered">
+				<p>
+					by
+					<a href="https://github.com/mathiezelat"
+						>Mathías Ezequiel Latrónico</a
+					>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

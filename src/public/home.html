@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="/js/home.js" defer></script>
+		<title>Skill Factory Node - Trabajo Práctico 5</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+		/>
+	</head>
+	<body class="has-background-light" style="height: 100vh">
+		<div class="container py-6 px-5">
+			<div
+				class="content is-flex is-flex-direction-column is-justify-content-center is-align-items-center"
+			>
+				<h1 class="title">Skill Factory Node</h1>
+				<h2 class="subtitle">Trabajo Práctico 5</h2>
+				<h3>Home - Profile</h3>
+				<div id="view-profile">
+					<h1>Cargando usuario...</h1>
+				</div>
+				<div class="buttons">
+					<a href="/chat.html" class="button is-primary"> Chat </a>
+					<a href="/mail.html" class="button is-primary is-light">
+						Mail
+					</a>
+					<button
+						class="button is-danger is-light"
+						onclick="logout()"
+					>
+						Cerrar sesión
+					</button>
+				</div>
+			</div>
+		</div>
+		<footer class="footer has-background-light">
+			<div class="content has-text-centered">
+				<p>
+					by
+					<a href="https://github.com/mathiezelat"
+						>Mathías Ezequiel Latrónico</a
+					>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="/socket.io/socket.io.js" defer></script>
+		<script src="/js/chat.js" defer></script>
+		<title>Skill Factory Node - Trabajo Práctico 5</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+		/>
+	</head>
+	<body class="has-background-light" style="min-height: 100vh">
+		<div class="container py-6 px-5">
+			<div>
+				<h1 class="title">Skill Factory Node</h1>
+				<h2 class="subtitle">Trabajo Práctico 5</h2>
+				<div class="buttons">
+					<a href="/home.html" class="button is-primary"
+						>Volver a home</a
+					>
+					<button id="chat-leave" class="button is-danger is-hidden">
+						Salir de la sala
+					</button>
+				</div>
+			</div>
+			<div id="chat-home" class="columns">
+				<form id="chat-form" class="block column">
+					<h1 class="title">Chat</h1>
+					<div class="field">
+						<label for="room" class="label">
+							Ingresa la sala
+						</label>
+						<div class="control">
+							<input
+								class="input"
+								type="text"
+								id="room"
+								name="room"
+								placeholder="Enter your room..."
+								autocomplete="off"
+								required
+							/>
+						</div>
+					</div>
+
+					<div class="field is-grouped">
+						<div class="control">
+							<button class="button is-link">Crear</button>
+						</div>
+					</div>
+				</form>
+				<div
+					id="chat-rooms"
+					class="column is-flex is-flex-direction-column is-justify-content-start is-align-items-start block"
+				></div>
+			</div>
+			<div class="columns">
+				<div id="chat-room" class="is-hidden column"></div>
+				<div class="column">
+					<h1 id="chat-title" class="title is-hidden">Chat</h1>
+					<h2 id="chat-subtitle" class="subtitle is-hidden">...</h2>
+
+					<div
+						id="chat-message"
+						class="is-hidden has-background-grey-lighter p-2 mb-2"
+						style="
+							height: 350px;
+							overflow-y: auto;
+							border-radius: 2px;
+						"
+					></div>
+					<form id="message-form" class="is-hidden">
+						<div class="field has-addons">
+							<div class="control is-expanded">
+								<input
+									class="input"
+									type="text"
+									id="message"
+									name="message"
+									placeholder="Send your message..."
+									required
+									autocomplete="off"
+								/>
+							</div>
+							<div class="control">
+								<button class="button is-info">Enviar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<footer class="footer has-background-light">
+				<div class="content has-text-centered">
+					<p>
+						by
+						<a href="https://github.com/mathiezelat"
+							>Mathías Ezequiel Latrónico</a
+						>
+					</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
