@@ -48,7 +48,10 @@ npm test
 
 ### Development 
 
+- chai
+- mocha
 - nodemon
+- supertest
 
 # REST Api
 
