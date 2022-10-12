@@ -13,6 +13,34 @@
       "password": "$2b$10$ezKxYAQndrJmwhJgyraLkuCmt7h20fqNET/Fbc/vThS2U1JRhz8vO",
       "google": false,
       "id": "43c0cfc9-b72e-4c5a-959d-d7f4f266e201"
+    },
+    {
+      "name": "User Test",
+      "email": "test2@mail.com",
+      "password": "$2b$10$3AHNjxeiffaxriQeOUyrPOdFyfrvg8YZMiMA4bNlQpMkTBonsta1q",
+      "google": false,
+      "id": "21d3c498-84a0-4940-aeb3-dc5d9911c3be"
+    },
+    {
+      "name": "User Test",
+      "email": "tes2t@mail.com",
+      "password": "$2b$10$cWTGQO0vBRy/adnifGMVIu0KvpF08OrSJYcxnqUX7ufmhzwqbDGF.",
+      "google": false,
+      "id": "45dff072-2c28-4992-9b36-f9193b753fd1"
+    },
+    {
+      "name": "Iron Man",
+      "email": "iron.man.steel@mail.com",
+      "password": "$2b$10$9DW0U9zzHBfX9vYmD1laVeRnRNq/z7cT7T4WRrSDgqapd2dicqeEW",
+      "google": false,
+      "id": "e1028f82-f9fb-4cbe-a48a-6a148420dff8"
+    },
+    {
+      "name": "Iron Man",
+      "email": "iron.man2022@mail.com",
+      "password": "$2b$10$F60I4Geu1UrUNV419XVL..5apT7tO7k7AoAzqzC/gOc7FlNGoCUEW",
+      "google": false,
+      "id": "a955942d-cef2-4297-b1c1-0ce9a6f93113"
     }
   ],
   "mails": [
