@@ -5,7 +5,7 @@ import { readFromDatabase, saveToDatabase } from '../utils/database.js'
 export const getAllUsers = async () => {
 	const database = await readFromDatabase()
 
-	if (!Object.hasOwn(database, 'users')) {
+	if (!database.hasOwnProperty('users')) {
 		database.users = []
 	}
 
@@ -15,7 +15,7 @@ export const getAllUsers = async () => {
 export const getOneUser = async userId => {
 	const database = await readFromDatabase()
 
-	if (!Object.hasOwn(database, 'users')) {
+	if (!database.hasOwnProperty('users')) {
 		database.users = []
 	}
 
@@ -27,7 +27,7 @@ export const getOneUser = async userId => {
 export const getOneUserByEmail = async email => {
 	const database = await readFromDatabase()
 
-	if (!Object.hasOwn(database, 'users')) {
+	if (!database.hasOwnProperty('users')) {
 		database.users = []
 	}
 
@@ -41,7 +41,7 @@ export const createOneUser = async newUser => {
 
 	newUser.id = crypto.randomUUID()
 
-	if (!Object.hasOwn(database, 'users')) {
+	if (!database.hasOwnProperty('users')) {
 		database.users = []
 	}
 

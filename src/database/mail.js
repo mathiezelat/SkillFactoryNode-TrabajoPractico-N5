@@ -4,7 +4,7 @@ import { readFromDatabase, saveToDatabase } from '../utils/database.js'
 export const getAllMails = async () => {
 	const database = await readFromDatabase()
 
-	if (!Object.hasOwn(database, 'mails')) {
+	if (!database.hasOwnProperty('mails')) {
 		database.mails = []
 	}
 
@@ -16,7 +16,7 @@ export const createOneMail = async newEmail => {
 
 	const database = await readFromDatabase()
 
-	if (!Object.hasOwn(database, 'mails')) {
+	if (!database.hasOwnProperty('mails')) {
 		database.mails = []
 	}
 

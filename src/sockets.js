@@ -26,7 +26,7 @@ export default io => {
 
 			const history = await readHistory()
 
-			if (!Object.hasOwn(history, room)) {
+			if (!history.hasOwnProperty(room)) {
 				history[room] = []
 			}
 
@@ -61,7 +61,7 @@ export default io => {
 
 			const history = await readHistory()
 
-			if (!Object.hasOwn(history, user.room)) {
+			if (!history.hasOwnProperty(user.room)) {
 				history[user.room] = []
 			}
 
